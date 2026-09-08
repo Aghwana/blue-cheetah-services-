@@ -42,3 +42,4 @@ function searchSite(){const q=document.getElementById('siteSearch').value.trim()
 function sendMail(e){e.preventDefault();const n=document.getElementById('name').value,p=document.getElementById('phone').value,c=document.getElementById('company').value,svc=document.getElementById('service').value,m=document.getElementById('message').value;const subject=encodeURIComponent('Website Enquiry from '+n);const body=encodeURIComponent('Name: '+n+'\nPhone: '+p+'\nCompany: '+c+'\nService required: '+svc+'\n\nMessage:\n'+m);document.getElementById('successNote').style.display='block';window.location.href='mailto:bluecheetahservices@gmail.com?subject='+subject+'&body='+body;}
 </script>
 </body></html>
+ 
