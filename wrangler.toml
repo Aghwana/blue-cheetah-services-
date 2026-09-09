@@ -1,0 +1,5 @@
+name = "blue-cheetah-services"
+compatibility_date = "2026-09-09"
+
+[assets]
+directory = "./"
